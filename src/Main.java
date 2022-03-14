@@ -8,6 +8,11 @@ public class Main {
         user1.withdrawal(78);
         System.out.println(user1.getBalance());
 
+        System.out.println(user2.getBalance());
+        user2.deposit(456);
+        System.out.println(user2.getBalance());
+
+
 
 
     }
